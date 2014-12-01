@@ -1,0 +1,179 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    background: url(../img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Cabin', sans-serif;
+}
+body{
+    margin:0 0;
+    padding:0 0;
+}
+#menu{
+    position:Fixed;
+    border:1px solid green;
+    height:90%;
+    width:320px;
+    padding:2px;
+}
+
+
+.footer{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+}
+
+.playerPicker{
+    position:fixed;
+    width:320px;
+    height:90%;
+    background:rgba(0,0,0,.5);
+    color:white;
+}
+.playerPicker .position-options{
+    display:block;
+    position:absolute;
+    clear:both;
+    width:100%;
+    margin:auto auto;
+}
+.playerPicker input.playername{
+    display:block;
+    width:93%;
+    margin:10px auto;
+    height:20px;
+}
+.playerPicker div.pos-filter{
+    float:left;
+    font-size:1.3em;
+    margin:auto auto;
+    width:20%;
+}
+.playerPicker div.pos-filter.first{
+    width:100%;
+}
+
+.playerPicker div.pos-filter.first label{
+    margin:auto auto;
+    display:block;
+    width:50px;
+}
+.playerPicker .position-options label{
+    display:inline-block;
+    text-align:center;
+    margin:0 0.2em;
+    width:100%;
+}
+.position-options label input[type="radio"] {
+    display:block;
+    margin:0.5em auto;
+}
+.playerList{
+    width:320px;
+    margin-top:115px;
+    position:fixed;
+    height:70%;
+    overflow:scroll;
+}
+.player-row li div{
+    float:left;
+    display:inline-block;
+    padding:5px;
+}
+.player-row li{
+    clear:both;
+    height:30px;
+    padding:1px;
+    background:rgba(0,0,0,.3);
+    border:1px solid black;
+    margin-right:1px;
+}
+.player-row ul{
+    list-style-type: none;
+    height:100%;
+    margin:0 0;
+    padding:0 0;
+    text-align:center;
+}
+.player-row li .team{
+    font-size:.5em;
+
+}
+.player-row li .position{
+    background:rgba(0,0,0,.3);
+    height:25px;
+    width:30px;
+}
+.player-card{
+    width:200px;
+    height:90%;
+    margin:0 1px;
+    top:0;
+    background:rgba(255,255,255,.5);
+    display:inline-block;
+}
+.player-card div{
+    text-align:center;
+    margin:auto auto;
+}
+.player-card .name{font-size:1.1em;font-weight:bold;}
+.player-card .oponent{margin-top:15px;}
+.player-card .status{margin:5px 0px;}
+
+.playerCards{
+    overflow:scroll;
+    width:70%;
+    height:90%;
+    position:absolute;
+    margin-top:20px;
+    margin-left:320px;
+    white-space: nowrap;
+
+}
+.logos {
+    color:white;
+    width:350px;
+    float:right;
+}
+.logos div.powered{
+    margin-right:3px;
+}
+
+.logos img{
+    float:left;
+    margin-top:3px;
+}
+.logos div {
+    margin-top:4px;
+    float:left;
+}
+.logos img.hexlogo{
+    padding-right:12px;
+}
+img.hexlogo,
+img.osilogo{
+    width:30%;
+    height:30%;
+}
+.header{
+    width:100%;
+    background:rgba(0,0,0,.5);
+}
+.header div{
+    font-size:0.8em;
+}
+.menuButton{
+    padding:2px;
+    width:16px;
+    height:16px;
+}
+h1{
+    color:white;
+    margin:0 5px;
+    padding:0 0;
+}

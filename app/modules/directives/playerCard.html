@@ -1,0 +1,14 @@
+<div class="player-card">
+    <div class="close" ng-click="untagPlayer()">X</div>
+    <div class="photo"><img src="{{playerData.PhotoUrl}}" alt="{{playerData.Name}}"/></div>
+    <div class="name">{{playerData.Name}}</div>
+    <div class="position">{{playerData.Position}} #{{playerData.Number}}</div>
+    <div class="team">{{playerData.Team}}</div>
+    <div class="status">{{playerData.CurrentStatus}}</div>
+    <div class="college">College: {{playerData.College}}</div>
+    <div class="depth">Depth Order: {{playerData.DepthOrder}}</div>
+    <div class="experience">{{playerData.ExperienceString}}</div>
+    <div class="height">{{playerData.Height}}</div>
+    <div class="oponent">Next Oponent: {{playerData.UpcomingGameOpponent}}</div>
+    <div class="panel-footer"></div>
+</div>

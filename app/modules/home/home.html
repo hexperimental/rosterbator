@@ -1,0 +1,24 @@
+<div class="playerPicker"> 
+<input placeholder="Filter by name" class="playername" type="text" ng-model="home.playername">
+<div class="position-options">
+    <div class="pos-filter first"><label for="all">ALL<input ng-click="home.updateFilter()" type="radio" ng-model="home.pos" value="" id="all"></label></div>
+    <div class="pos-filter"><label for="qb">QB<input ng-click="home.updateFilter()" type="radio" ng-model="home.pos" value="QB" id="qb"></label></div>
+    <div class="pos-filter"><label for="rb">RB<input ng-click="home.updateFilter()" type="radio" ng-model="home.pos" value="RB" id="rb"></label></div>
+    <div class="pos-filter"><label for="wr">WR<input ng-click="home.updateFilter()" type="radio" ng-model="home.pos" value="WR" id="wr"></label></div>
+    <div class="pos-filter"><label for="te">TE<input ng-click="home.updateFilter()" type="radio" ng-model="home.pos" value="TE" id="te"></label></div>
+    <div class="pos-filter"><label for="k">K<input ng-click="home.updateFilter()" type="radio" ng-model="home.pos" value="K" id="k"></label></div>
+    <!--<div class="pos-filter"><label for="def">DEF<input ng-click="home.updateFilter()" type="radio" ng-model="home.pos" value="DEF" id="def"></label></div> -->
+</div>
+<div class="playerList">
+    <player-row player="player" 
+                ng-repeat="player in home.players | filter:{Name:home.playername}| filter:{Position:home.pos}">
+    </player-row>
+</div>
+
+</div>
+
+<div class="playerCards">
+    <player-card player="player"
+                 ng-repeat="player in home.selectedPlayers">
+    </player-card>
+</div>
