@@ -2,7 +2,6 @@
     angular.module("HxApp",[
         'ngRoute',
         'ui.router',
-        'playerPicker',
     ])
     .config(['$routeProvider',function($routeProvider){
         $routeProvider
