@@ -24,8 +24,8 @@
         <script src="vendor/angular-route.min.js"></script>
         <script src="vendor/angular-ui-router.js"></script>
         <script src="app/app.js"></script>
-        <script src="app/modules/service/playerService.js"></script>
-        <script src="app/modules/directives/playerRow.js"></script>
-        <script src="app/modules/directives/playerCard.js"></script>
+        <script src="app/modules/service/player-service.js"></script>
+        <script src="app/modules/directives/player-row.js"></script>
+        <script src="app/modules/directives/player-card.js"></script>
 </body>
 </html>

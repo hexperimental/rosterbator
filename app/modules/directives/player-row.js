@@ -4,7 +4,7 @@
     var playerRow = function(PlayerService){
         return {
             restrict: 'E',
-            templateUrl: 'app/modules/directives/playerRow.html',
+            templateUrl: 'app/modules/directives/player-row.html',
             scope: {
                 player: '=',
             },

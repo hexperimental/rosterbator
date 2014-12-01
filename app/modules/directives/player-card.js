@@ -4,7 +4,7 @@
     var playerCard = function(PlayerService){
         return {
             restrict: 'E',
-            templateUrl: 'app/modules/directives/playerCard.html',
+            templateUrl: 'app/modules/directives/player-card.html',
             scope: {
                 player: '='
             },
